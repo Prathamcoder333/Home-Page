@@ -227,30 +227,35 @@ header {
 }
 
 /* Examples section */
-.examples-header{
+.examples-header {
     text-align: center;
-    
+
 }
-.examples-area{
+
+.examples-area {
     justify-content: space-between;
     margin-block: 30px;
 }
-.examples-heading-text{
+
+.examples-heading-text {
     margin-bottom: 20px;
 }
-.examples-card{
+
+.examples-card {
     width: 23%;
     position: relative;
     min-height: 300px;
     background: black;
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(./assets/asset\ 36.jpeg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
     background-size: cover;
     transition: 0.2s ease-out;
 }
-.examples-card:hover{
+
+.examples-card:hover {
     box-shadow: 0 0 10px #888;
 }
-.card-text{
+
+.card-text {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -259,22 +264,51 @@ header {
 }
 
 /* CTA Section */
-.cta-section-container{
+.cta-section-container {
     flex-direction: column;
     gap: 20px;
     color: white;
-    
+
 }
-.cta-section{
+
+.cta-section {
     background-color: #183b54;
-    padding: 120px var(--padding-inline-section) 80px ;
+    padding: 120px var(--padding-inline-section) 80px;
 }
-.cta-section-container p{
+
+.cta-section-container p {
     color: white;
     margin-top: 20px;
-    
+
 }
-.cta-section-container a{
+
+.cta-section-container a {
     text-decoration: none;
     color: white;
+}
+
+/* Footer Section */
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
 }
